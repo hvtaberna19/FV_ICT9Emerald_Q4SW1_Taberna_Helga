@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
+	<title>PHP -> USD</title>
+	<style>
+		body{
+			background-color: rgb(190, 215, 220);
+		}	
+		#div1{
+			background-color: rgb(179, 200, 207);
+			color: white;
+			font-size: 50px;
+		}
+		h2{
+			font-size: 80px;
+		}
+		
+	</style>
+</head>
+<body>
+	<center>
+
+	<div id="div1">
+		Here is the conversion from <br> Philippine Peso to Japanese Yen:
+	</div> <br><br><br><br><br><br><br><br>
+
+	<p id="page3" class="btn btn-light" ></p><br><br><br><br><br><br><br>
+	<a id="MP" href=index.html class="btn btn-primary"><h3>Main Page</h3></a>
+	<script type="text/javascript">
+		let a, b, c;
+		a=100;
+		b=2.69;
+		c=a*b;
+		document.getElementById("page3").innerHTML="<h2 class='text-info'>" + c + "</h2>";
+	</script>
+
+</center>
+</body>
+</html>
